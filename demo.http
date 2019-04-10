@@ -1,0 +1,13 @@
+### plain
+GET http://localhost:8080/
+
+### rxjava
+GET http://localhost:8080/rxjava
+
+### future
+GET http://localhost:8080/future
+
+### Kotlin coroutines
+GET http://localhost:8080/coroutines
+
+###
