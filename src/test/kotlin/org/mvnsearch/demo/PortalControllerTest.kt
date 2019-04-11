@@ -22,5 +22,6 @@ class PortalControllerTest {
             .exchange()
             .expectStatus().isOk
             .expectBody()
+            .consumeWith { println(String(it.responseBody!!)) }
     }
 }
