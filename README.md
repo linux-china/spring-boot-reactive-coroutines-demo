@@ -3,8 +3,8 @@ Spring Boot Reactive & Kotlin Coroutines Demo
 
 ### Requirements
 
-* JDK 8+
-* Kotlin 1.3.21
+* JDK 11
+* Kotlin 1.3.30
 * Spring Framework 5.2.0.M1
 * Spring Boot 2.2.0.M1
 
