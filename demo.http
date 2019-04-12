@@ -10,4 +10,7 @@ GET http://localhost:8080/future
 ### Kotlin coroutines
 GET http://localhost:8080/coroutines
 
+### Kotlin coroutines
+GET http://localhost:8080/coroutines/flow
+
 ###
