@@ -46,3 +46,8 @@ Spring Boot Reactive & Kotlin Coroutines Demo
         return "Hello Kotlin Coroutines!"
     }
 ```
+
+### References
+
+* Going Reactive with Spring, Coroutines and Kotlin Flow: https://spring.io/blog/2019/04/12/going-reactive-with-spring-coroutines-and-kotlin-flow
+* Spring with Kotlin: https://docs.spring.io/spring-framework/docs/5.2.0.M1/spring-framework-reference/languages.html#kotlin
