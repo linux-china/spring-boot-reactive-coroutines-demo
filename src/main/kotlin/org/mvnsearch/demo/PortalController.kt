@@ -1,6 +1,9 @@
 package org.mvnsearch.demo
 
 import io.reactivex.Single
+import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flowOf
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
@@ -37,7 +40,13 @@ class PortalController {
     }
 
     @GetMapping("/coroutines")
-    suspend fun coroutine(): String {
+    suspend fun coroutines(): String {
         return "Hello Kotlin Coroutines!"
+    }
+
+    @FlowPreview
+    @GetMapping("/coroutines/flow")
+    fun coroutinesFlow(): Flow<String> {
+        return flowOf("first", "second")
     }
 }
