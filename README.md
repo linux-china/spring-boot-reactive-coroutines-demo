@@ -38,12 +38,21 @@ Spring Boot Reactive & Kotlin Coroutines Demo
     }
 ```
 
-* Kotlin Coroutines
+* Kotlin Coroutines with suspend keyword
 
 ```
     @GetMapping("/coroutines")
     suspend fun coroutine(): String {
         return "Hello Kotlin Coroutines!"
+    }
+```
+
+* Kotlin Coroutines with Flow
+
+```
+    @GetMapping("/coroutines/flow")
+    fun coroutineFlow(): Flow<String> {
+        return flowOf("first", "second")
     }
 ```
 
